@@ -1,0 +1,54 @@
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 4em;
+    /* background: #001C30; */
+}
+
+.menu {
+
+    display: flex;
+}
+
+.menu li {
+    list-style-type: none;
+    position: relative;
+    right: 3%;
+}
+
+.menu a {
+    display: block;
+    margin: 0.5rem;
+    padding: 0.4rem;
+    text-align: center;
+    /* background-color: #001C30; */
+    color: #64CCC5;
+    text-decoration: none;
+}
+
+.nav_nom {
+    color: #176B87;
+    font-size: 3em;
+    font-weight: bold;
+    letter-spacing: 0.3em;
+    /*espaces entres les lettres*/
+    position: relative;
+    left: 3%;
+    font-family: 'Prompt', sans-serif;
+}
+
+.footer_footer{
+display: flex;
+background-color: #64CCC5;
+align-items: center;
+font-size: 4em;
+}
+
+.logo_facebook {
+    width: 10%;   
+}
+
+.logo_insta {
+    width: 40%;
+}
