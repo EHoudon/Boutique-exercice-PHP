@@ -22,15 +22,16 @@
         $altBurger = "Burger moutarde";
         ?>
 
-        <div>
-            <?php echo "burger $nom"; ?>
-        </div>
-        <div>
-            <?php echo "seulement $prix £"; ?>
-        </div>
-        <div>
-
-            <img src=<?php echo $imageBurger; ?> alt=echo $altBurger; width="10%" height="10%">
+        <div class="infoProduit">
+            <div>
+                <?php echo "burger $nom"; ?>
+            </div>
+            <div>
+                <?php echo "seulement $prix £"; ?>
+            </div>
+            <div>
+                <img class="photoBurger" src=<?php echo $imageBurger; ?> alt=echo $altBurger; >
+            </div>
         </div>
     </main>
 

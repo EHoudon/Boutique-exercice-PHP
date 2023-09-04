@@ -1,6 +1,7 @@
 <header>
         <nav class="nav">
             <div class="nav_nom">Titi Burger</div>
+            <img class="logoBurger" src="images\burger-header.png" alt="burger logo">
             <ul class="menu">
                 <li>
                     <a href="#Accueil">Accueil</a>

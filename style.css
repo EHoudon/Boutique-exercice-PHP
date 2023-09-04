@@ -2,13 +2,14 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 4em;
+    height: 10em;
     /* background: #001C30; */
 }
 
 .menu {
 
     display: flex;
+    font-size: 2em;
 }
 
 .menu li {
@@ -38,17 +39,38 @@
     font-family: 'Prompt', sans-serif;
 }
 
+.logoBurger{
+    width: 10%;
+}
+
+.infoProduit{
+    text-align: center;
+    font-weight: bold;
+    font-size: 3em;
+}
+
+.photoBurger{
+width: 20%;
+
+}
+
 .footer_footer{
 display: flex;
+position: relative;
+justify-content: space-around;
 background-color: #64CCC5;
 align-items: center;
-font-size: 4em;
+text-align: center;
+/* font-size: 2em; */
+
 }
 
 .logo_facebook {
-    width: 10%;   
+    width: 10%;
+    height: 10%;   
 }
 
 .logo_insta {
     width: 40%;
+    height: 40%;
 }
