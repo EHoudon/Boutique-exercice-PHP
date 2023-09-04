@@ -1,9 +1,15 @@
+body{
+    margin: 0;
+    padding: ;
+}
+
 .nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
     height: 10em;
-    /* background: #001C30; */
+    background: #001C30;
+    clip-path: polygon(0 0, 100% 0, 100% 74%, 0 100%);
 }
 
 .menu {
@@ -26,6 +32,7 @@
     /* background-color: #001C30; */
     color: #64CCC5;
     text-decoration: none;
+    font-family: 'Gloria Hallelujah', cursive;
 }
 
 .nav_nom {
@@ -36,11 +43,11 @@
     /*espaces entres les lettres*/
     position: relative;
     left: 3%;
-    font-family: 'Prompt', sans-serif;
+    font-family: 'Gloria Hallelujah', cursive;
 }
 
 .logoBurger{
-    width: 10%;
+    width: 8%;
 }
 
 .infoProduit{
@@ -55,12 +62,14 @@ width: 20%;
 }
 
 .footer_footer{
+clip-path: polygon(0 18%, 100% 0, 100% 100%, 0 100%);
 display: flex;
 position: relative;
 justify-content: space-around;
-background-color: #64CCC5;
+background-color: #001C30;
 align-items: center;
 text-align: center;
+color: #64CCC5
 /* font-size: 2em; */
 
 }
