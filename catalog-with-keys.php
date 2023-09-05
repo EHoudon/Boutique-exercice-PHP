@@ -23,6 +23,10 @@ $Cheese = [
     'picture_url' => 'images\Cheese.webp',
 ];
 
+foreach ($Végétarien as $Végé) {
+    echo "$Végé \n";
+}
+
 ?>
 
 <div>
