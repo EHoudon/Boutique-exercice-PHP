@@ -1,31 +1,36 @@
+    <?php
+    include('multidimensional-catalog.php');
+    include('my-functions.php');
+    ?>
 
-    <header>
-        <?php include('header.php'); ?>
-    </header>
+    <?php include('header.php'); ?>
 
     <main>
+        <div class="tousLesBurgers">
         <?php
-        $nom = "solo";
-        $prix = 10;
-        $imageBurger = "images\cristi-ursea-y-nD1b0bnc0-unsplash.jpg";
-        $altBurger = "Burger moutarde";
+        foreach ($products as $product) :
         ?>
 
-        <div class="infoProduit">
-            <div>
-                <?php echo "burger $nom"; ?>
+            <div class="Burgers">
+                <img src=<?php echo $product['picture_url']; ?>>
+                <h3>
+                    Burger <?php echo $product['name']; ?>
+                </h3>
+                <p>
+                    <?php echo formatPrice($product['price']); ?><br>
+                    <?php echo formatPrice(priceExcludingVAT($product['price'])); ?><br>
+                    <?php echo $product['weight']; ?> Grammes
+                </p>
+                <p>
+                    <?php echo $product['description']; ?>
+                </p>
             </div>
-            <div>
-                <?php echo "seulement $prix £"; ?>
-            </div>
-            <div>
-                <img class="photoBurger" src=<?php echo $imageBurger; ?> alt=echo $altBurger; >
-            </div>
+        <?php
+        endforeach;
+        ?>
         </div>
     </main>
 
     <footer>
         <?php include('footer.php'); ?>
     </footer>
-
-    
