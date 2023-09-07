@@ -2,8 +2,8 @@
 
 <div class="footer_footer">
 
-    <div>
-        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d2894.410922402535!2d5.724954359845838!3d45.186839537523795!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sfr!2sfr!4v1693829908897!5m2!1sfr!2sfr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    <div class="mapGoogle">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d2894.410922402535!2d5.724954359845838!3d45.186839537523795!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sfr!2sfr!4v1693829908897!5m2!1sfr!2sfr" width="500" height="375" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
     </div>
 
     <div>

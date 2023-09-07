@@ -14,4 +14,12 @@ function priceExcludingVAT($prix)
     return (100*$prix)/(100+20);
 }
 
+function discountPrice($prix,$discount)
+{
+    return $prix *(1-($discount/100));
+}
 
+// foreach ($products as $product){
+//  if (($product['discount'])!=null)
+// echo formatPrice(discountPrice(($product['price']),($product['discount'])));
+// }
