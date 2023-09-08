@@ -1,7 +1,8 @@
 <?php
 
-$products = [
+ $products = [
     [
+        'id' => 'Burger01',
         'name' => 'Végétarien',
         'price' => 8,
         'picture_url' => 'images\Végétarien.webp',
@@ -10,6 +11,7 @@ $products = [
         'discount' => 20,
     ],
     [
+        'id' => 'Burger02',
         'name' => 'Bacon',
         'price' => 12,
         'picture_url' => 'images\Bacon.webp',
@@ -18,6 +20,7 @@ $products = [
         'discount' => null,
     ],
     [
+        'id' => 'Burger03',
         'name' => 'Double',
         'price' => 14,
         'picture_url' => 'images\Double.webp',
@@ -26,6 +29,7 @@ $products = [
         'discount' => null,
     ],
     [
+        'id' => 'Burger04',
         'name' => 'Cheese',
         'price' => 11,
         'picture_url' => 'images\Cheese.webp',
@@ -35,6 +39,13 @@ $products = [
     ],
 
 ];
+
+
+
+// function produitsDétails ($products) {
+
+
+// }
 
 
 

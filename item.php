@@ -32,7 +32,7 @@
                     </p>
                     <form action="cart.php" method="post">
                         Quantité: <input type="number" name="howmuch">
-                        <input type="hidden" name="namecaca" id="namecaca" value="<?php echo $product['price'] ?>">
+                        <input type="hidden" name="valeursTableau" id="valeursTableau" value="<?php echo $product['id'] ?>">
                         <input type="submit" value="Envoyer">
                     </form>
                 </div>

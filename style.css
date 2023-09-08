@@ -8,8 +8,10 @@ body{
     justify-content: space-between;
     align-items: center;
     height: 10em;
-    background: #001C30;
-    clip-path: polygon(0 0, 100% 0, 100% 74%, 0 100%);
+    /* clip-path: polygon(0 0, 100% 0, 100% 74%, 0 100%); */
+    
+    border-bottom:solid #001C30;
+    margin-bottom: 20px;
 }
 
 .menu {
@@ -29,18 +31,17 @@ body{
     margin: 0.5rem;
     padding: 0.4rem;
     text-align: center;
-    /* background-color: #001C30; */
     color: #64CCC5;
     text-decoration: none;
     font-family: 'Gloria Hallelujah', cursive;
 }
 
 .nav_nom {
-    color: #176B87;
+    color: #4d5355;
     font-size: 3em;
     font-weight: bold;
     letter-spacing: 0.3em;
-    /*espaces entres les lettres*/
+
     position: relative;
     left: 3%;
     font-family: 'Gloria Hallelujah', cursive;
